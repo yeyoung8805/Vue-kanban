@@ -1,4 +1,4 @@
-$ touch ./build/dev-server.js
+//$ touch ./build/dev-server.js
 
 const bodyParser = require("body-parser");
 module.exports = app => {
