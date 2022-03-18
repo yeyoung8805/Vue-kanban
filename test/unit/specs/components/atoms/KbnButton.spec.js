@@ -6,7 +6,9 @@ describe('KbnButton', () => {
     describe('프로퍼티', () => {
         describe('type', () => {
             describe('기본값', () => {
+                // kbn-button 클래스를 갖는 button 요소로 구성됨
                 it('kbn-button 클래스를 갖는 button 요소로 구성됨', () => {
+                    // kbn-button 클래스를 갖는  button 요소로 구성됨을 확인하는 코드 
                     const button = mount(KbnButton)
                     expect(button.is('button')).to.equal(true)
                     expect(button.classes()).to.include('kbn-button')
