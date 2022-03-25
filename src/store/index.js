@@ -14,6 +14,11 @@ const state = {
     },
     board: { //상태 board
         lists: [] //상태 TaskList는 빈 배열로 초기화
+    },
+    dragging: { //drag n drop 된 태스크를 처리하기 위한 상태를 저장
+        target: null, //drag n drop 대상 태스크 ID
+        from: null, //원래 속했던 태스크 목록 ID
+        to: null //drop 된 태스크 목록 ID
     }
 }
 
