@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import KbnButton from '@/components/atoms/KbnButtom.vue'
+import KbnButton from '@/components/atoms/KbnButton.vue'
 
 export default {
     name: 'KbnBoardNavigation',
